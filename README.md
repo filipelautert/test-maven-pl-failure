@@ -1,5 +1,5 @@
 
-* To reproduce issue #... , build this project excluding `exclude` module:
+* To reproduce issue https://issues.apache.org/jira/browse/MNG-7720, build this project excluding `exclude` module:
 
 `apache-maven-3.9.0/bin/mvn -X -pl '!exclude' clean package`
 
@@ -12,4 +12,5 @@ at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions (Moj
 at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:325)
 at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:213)
 at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:175)
+...
 ```
